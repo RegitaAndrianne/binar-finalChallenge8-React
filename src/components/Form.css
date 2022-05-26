@@ -1,0 +1,41 @@
+.form__controls {
+    flex-wrap: wrap;
+    margin: 2.5rem 0;
+    text-align: left;
+}
+.form__control label {
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+    display: block;
+}
+.form__control input {
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 15rem;
+    height: 1rem;
+    /* max-width: 100%; */
+}
+.form__control select {
+    font: inherit;
+    /* padding: 0.2rem; */
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 16rem;
+    height: 2rem;
+    font-size: 12px;
+    /* max-width: 50%; */
+}
+.form__actions {
+    margin-top: 15px;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
